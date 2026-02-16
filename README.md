@@ -65,13 +65,7 @@ street VARCHAR(255)
 );
 ```
 
-### 3 - Instalar dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4 - Rodar a ingestão
+### 3 - Rodar a ingestão
 
 ```bash
 python app/main.py
