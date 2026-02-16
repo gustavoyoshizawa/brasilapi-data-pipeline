@@ -52,6 +52,7 @@ database: brasilapi
 
 Conecte usando qualquer cliente SQL e execute:
 
+```bash
 USE brasilapi;
 
 CREATE TABLE ceps (
@@ -62,11 +63,16 @@ city VARCHAR(255),
 neighborhood VARCHAR(255),
 street VARCHAR(255)
 );
+```
 
 ### 3 - Instalar dependências
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 4 - Rodar a ingestão
 
+```bash
 python app/main.py
+```
